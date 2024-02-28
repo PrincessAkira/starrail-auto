@@ -32,7 +32,7 @@ jobs:
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u aimslvt --password-stdin
       - name: build the image
         run: |
-          IMAGE_ID=${{ github.repository }}
+          IMAGE_ID=aimslvt/starrail-auto
 
           # Change all uppercase to lowercase
           IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
