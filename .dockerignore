@@ -7,3 +7,19 @@ yarn-error.log
 # Application configuration
 config.json
 default.config.json
+
+**/node_modules/
+**/dist
+.git
+.cache
+npm-debug.log
+.coverage
+.coverage.*
+.env
+.config.js
+.gitignore
+.bulidcommands
+services
+setup
+README.md
+test
